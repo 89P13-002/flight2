@@ -1,0 +1,61 @@
+.form-control-standard {
+  margin-top: 16px; /* Adjust margin-top to space it correctly */
+}
+
+.form-control-round {
+  position: relative;
+  margin-top: 16px; /* Adjust margin-top to space it correctly */
+}
+
+.select-airline {
+  border-radius: 25px; /* Adjust border-radius to make it round */
+  box-shadow: 0 0 0 2px white; /* Add box-shadow to create the white round circle */
+  padding: 10px 15px; /* Add padding to space the text from the edge of the circle */
+  transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.select-airline:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 0 2px #1976d2; /* Add blue box-shadow when focused */
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

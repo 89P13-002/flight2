@@ -1,0 +1,51 @@
+.card {
+    margin: 16px;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card:hover {
+    box-shadow: 10px 10px 20px #ccc;
+  }
+  
+  .cardContent {
+    padding: 16px;
+  }
+  
+  .flightNumber {
+    margin: 0 0 8px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .cardActions {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #2b2d42;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #121217;
+  }
+  

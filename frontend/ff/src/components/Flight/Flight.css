@@ -1,0 +1,49 @@
+.flight-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .flight-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .flight-item {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-item div {
+    margin-bottom: 5px;
+  }
+  
+
+  .error-message {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  .flight-item button {
+    background-color: #2b2d42;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .flight-item button:hover {
+    background-color: #121217;
+  }
+  

@@ -1,0 +1,54 @@
+.app-bar {
+    position: sticky;
+    top: 0;
+    background-color: #2b2d42;
+    z-index: 1000;
+    width: 100%;
+  }
+  
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    width: 20%;
+  }
+  
+  .flight-icon {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .tabs {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .tabs nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .tabs nav ul li {
+    margin-right: 20px;
+  }
+  
+  .tabs nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .tabs nav ul li.active a,
+  .tabs nav ul li a:hover {
+    color: #f50057;
+  }
+  
